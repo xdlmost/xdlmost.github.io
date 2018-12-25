@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Awesome font"
+date:   2018-12-25 15:00:00 +0800
+categories: web-front
+---
+
+# Awesome font
+
+Awesome font is a library of icon-font
+
+[Awesome font](fontawesome.dashgame.com)

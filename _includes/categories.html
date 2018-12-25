@@ -1,0 +1,17 @@
+<h1>Categories</h1>
+{% assign namestring = "linux,web-front" %}
+{% assign names = namestring|split:"," %}
+
+<ul>
+{% for name in names %}
+    <il>
+        {% assign posts = site.posts | where: "categories",name %}
+        <h1>{{name}}({{ posts | size}})</h1>
+        <ul>
+            {% for post in posts %}
+            <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </il>
+{% endfor %}    
+</ul>
