@@ -19,8 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
     record steps to the future 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xdlmost.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  xdlmost
-
+github: xdlmost
+gitlib:
+  
 # Build settings
 # Markdown settings
 # replace redcarpet to kramdown,
